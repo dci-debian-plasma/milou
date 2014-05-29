@@ -1,0 +1,97 @@
+Source: milou
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: cmake,
+               baloo-kf5-dev (>= 4.96.0),
+               baloo-kf5 (>= 4.96.0),
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               kdoctools-dev (>= 4.99.0),
+               kf5-kio-dev (>= 4.99.0),
+               kgendesignerplugin (>= 4.99.0),
+               kinit-dev (>= 4.99.0),               
+               libkf5attica-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5bookmarks-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5crash-dev (>= 4.99.0),
+               libkf5declarative-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5dnssd-dev (>= 4.99.0),
+               libkf5emoticons-dev (>= 4.99.0),
+               libkf5globalaccel-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5itemmodels-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5jobwidgets-dev (>= 4.99.0),
+               libkf5kcmutils-dev (>= 4.99.0),
+               libkf5kdelibs4support-dev (>= 4.99.0),
+               libkf5kdelibs4support5-bin (>= 4.99.0),
+               libkf5khtml-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5notifications-dev (>= 4.99.0),
+               libkf5parts-dev (>= 4.99.0),
+               libkf5pty-dev (>= 4.99.0),
+               libkf5runner-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5solid-dev (>= 4.99.0),
+               libkf5sonnet-dev (>= 4.99.0),
+               libkf5su-dev (>= 4.99.0),
+               libkf5textwidgets-dev (>= 4.99.0),
+               libkf5unitconversion-dev (>= 4.99.0),
+               libkf5wallet-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               libkf5xmlgui-dev (>= 4.99.0),
+               libqt5webkit5-dev,
+               pkg-kde-tools,
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtscript5-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://projects.kde.org/projects/kde/workspace/milou
+Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/milou
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/milou
+
+Package: milou
+Section: utils
+Architecture: any
+Depends: milou-data (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: Dedicated search plasmoid.
+ Milou can also be used as an alternative to KRunner, and
+ does provide application launching. The main difference
+ is that it concentrates more on searching.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: milou-data
+Section: libs
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Dedicated search plasmoid data files.
+ Milou can also be used as an alternative to KRunner, and
+ does provide application launching. The main difference
+ is that it concentrates more on searching.
+ .
+ This package contains the data files
+
+Package: milou-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: milou (= ${binary:Version}), ${misc:Depends}
+Description: Dedicated search plasmoid debug files.
+ Milou can also be used as an alternative to KRunner, and
+ does provide application launching. The main difference
+ is that it concentrates more on searching.
+ .
+ This package contains the debugging symbols.
