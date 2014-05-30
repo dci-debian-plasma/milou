@@ -57,32 +57,20 @@ Build-Depends: cmake,
                qtdeclarative5-dev,
                qtscript5-dev
 Standards-Version: 3.9.5
-Section: libs
+Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/milou
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/milou
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/milou
 
-Package: milou
-Section: utils
+Package: plasma-widget-milou-kf5
 Architecture: any
-Depends: milou-data (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Dedicated search plasmoid.
  Milou can also be used as an alternative to KRunner, and
  does provide application launching. The main difference
  is that it concentrates more on searching.
  .
  This package is part of the KDE base workspace module.
-
-Package: milou-data
-Section: libs
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Dedicated search plasmoid data files.
- Milou can also be used as an alternative to KRunner, and
- does provide application launching. The main difference
- is that it concentrates more on searching.
- .
- This package contains the data files
 
 Package: milou-dbg
 Section: debug
