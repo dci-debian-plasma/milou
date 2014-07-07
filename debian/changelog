@@ -1,3 +1,9 @@
+milou (4:4.98.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:41:40 +0200
+
 milou (4:4.96.0-0ubuntu1) utopic; urgency=medium
 
   * Initial release.
