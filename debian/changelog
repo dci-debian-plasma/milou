@@ -6,6 +6,7 @@ milou (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Clean up copyright
   * Add lintian override so-name match. 
+  * Add stable to watch 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:29:02 +0200
 

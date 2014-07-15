@@ -1,2 +1,3 @@
 version=3
 ftp://ftp.kde.org/pub/kde/unstable/plasma/([\d\.]+)/src/milou-(.*)\.tar\.xz
+ftp://ftp.kde.org/pub/kde/stable/plasma/([\d\.]+)/milou-(.*)\.tar\.xz
