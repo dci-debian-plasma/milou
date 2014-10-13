@@ -1,6 +1,7 @@
 milou (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Remove provides plasma-widget-milou-kf5, it already breaks/replaces it
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:13:01 +0200
 
