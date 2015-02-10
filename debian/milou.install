@@ -1,1 +1,10 @@
-usr/
+usr/lib/x86_64-linux-gnu/libmilou.so.5
+usr/lib/x86_64-linux-gnu/libmilou.so.5.2.0
+usr/lib/x86_64-linux-gnu/qt5/plugins/miloutextplugin.so
+usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/milou/
+usr/share/kservices5/miloutextpreview.desktop
+usr/share/kservices5/plasma-applet-org.kde.milou.desktop
+usr/share/kservicetypes5/miloupreviewplugin.desktop
+usr/share/locale/*/*/milou.mo
+usr/share/locale/*/*/plasma_applet_org.kde.milou.mo
+usr/share/plasma/plasmoids/org.kde.milou/
