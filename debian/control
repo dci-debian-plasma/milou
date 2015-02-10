@@ -1,5 +1,6 @@
 Source: milou
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -13,7 +14,6 @@ Build-Depends: cmake,
                qtscript5-dev,
                pkg-kde-tools
 Standards-Version: 3.9.5
-Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/milou
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/milou.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/milou.git
@@ -30,9 +30,10 @@ Description: Dedicated search plasmoid.
 
 Package: milou-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: milou (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: Dedicated search plasmoid debug files.
  Milou can also be used as an alternative to KRunner, and
  does provide application launching. The main difference
