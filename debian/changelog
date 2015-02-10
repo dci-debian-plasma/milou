@@ -1,4 +1,4 @@
-milou (4:5.2.0-1~) UNRELEASED; urgency=medium
+milou (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Add myself as Uploader.
@@ -9,7 +9,7 @@ milou (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 13:35:03 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 14:27:39 +0100
 
 milou (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
