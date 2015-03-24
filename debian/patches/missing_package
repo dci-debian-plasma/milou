@@ -1,0 +1,13 @@
+Index: milou/CMakeLists.txt
+===================================================================
+--- milou.orig/CMakeLists.txt	2015-02-10 13:35:17.176202789 +0100
++++ milou/CMakeLists.txt	2015-03-24 20:54:42.965546253 +0100
+@@ -7,7 +7,7 @@
+ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
+ 
+ find_package(Qt5 REQUIRED NO_MODULE COMPONENTS Script Qml Quick Widgets Test)
+-find_package(KF5 REQUIRED COMPONENTS Runner Plasma I18n Declarative)
++find_package(KF5 REQUIRED COMPONENTS Service Runner Plasma I18n Declarative)
+ 
+ include(FeatureSummary)
+ include(ECMAddTests)

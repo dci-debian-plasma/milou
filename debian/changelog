@@ -1,6 +1,7 @@
 milou (4:5.2.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.2.1).
+  * New patch: missing_package
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Mar 2015 09:54:38 +0100
 
