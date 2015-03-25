@@ -1,8 +1,8 @@
-milou (4:5.2.2-0ubuntu1) UNRELEASED; urgency=medium
+milou (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 19 Mar 2015 15:11:00 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:36:05 -0700
 
 milou (4:5.2.1-0ubuntu1) vivid; urgency=medium
 
