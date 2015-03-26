@@ -46,8 +46,8 @@ License: GPL-3 or LGPL-2.1
  ensure the GNU General Public License version 3.0 requirements will be
  met: http://www.gnu.org/copyleft/gpl.html
 
-Files: lib/previews/videos/*         
-       plasmoid/* 
+Files: lib/previews/videos/*
+       plasmoid/*
        debian/*
 Copyright: 2013-2014 Vishesh Handa <me@vhanda.in>
            2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
