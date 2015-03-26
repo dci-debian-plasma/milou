@@ -7,10 +7,10 @@ Build-Depends: cmake,
                libkf5declarative-dev (>= 5.2.0),
                libkf5i18n-dev (>= 5.2.0),
                libkf5runner-dev (>= 5.2.0),
+               pkg-kde-tools,
                plasma-framework-dev (>= 5.2.0),
                qtdeclarative5-dev,
-               qtscript5-dev,
-               pkg-kde-tools
+               qtscript5-dev
 Standards-Version: 3.9.5
 Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/milou
