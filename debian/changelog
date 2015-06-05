@@ -1,8 +1,9 @@
-milou (4:5.3.0-1~) UNRELEASED; urgency=medium
+milou (4:5.3.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 May 2015 20:09:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:57:19 +0200
 
 milou (4:5.2.2-1) experimental; urgency=medium
 
