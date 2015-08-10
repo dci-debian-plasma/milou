@@ -23,7 +23,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/milou.git
 
 Package: milou
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-framework
 Breaks: plasma-widget-milou-kf5
 Replaces: plasma-widget-milou-kf5
 Description: Dedicated search plasmoid.
