@@ -1,8 +1,8 @@
-milou (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+milou (4:5.5.5-0ubuntu1) xenial; urgency=medium
 
   * New upstream bugfix release
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:32:03 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 14 Apr 2016 13:48:59 -0700
 
 milou (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
