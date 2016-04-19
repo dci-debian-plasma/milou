@@ -2,15 +2,7 @@ milou (4:5.6.2-1~1.gbp60d750) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @60d7500caaa77e0649a852f93187cc3ca0eccf25 **
 
-  * UNRELEASED
-
  -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:44:13 +0200
-
-milou (4:5.5.5-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (5.5.5).
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:30:23 +0100
 
 milou (4:5.5.4-1) experimental; urgency=medium
 
