@@ -1,10 +1,8 @@
-milou (4:5.6.5-1~1.gbpdc4ab5) UNRELEASED; urgency=medium
+milou (4:5.6.5-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @dc4ab5497f17fb55582d2b3130b7765d52b7304f **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 20:44:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 13:55:28 +0200
 
 milou (4:5.6.4-1) unstable; urgency=medium
 
