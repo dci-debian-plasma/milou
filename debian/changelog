@@ -1,14 +1,9 @@
-milou (4:5.7.4-1~2.gbp4f85da) UNRELEASED; urgency=medium
+milou (4:5.7.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @4f85da44c4736d90ab82a7c995b95273da7b4550 **
-
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 10:44:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 15:05:16 +0200
 
 milou (4:5.7.0-1) unstable; urgency=medium
 
