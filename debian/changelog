@@ -1,10 +1,16 @@
-milou (4:5.7.5-1~1.gbp3dfe92) UNRELEASED; urgency=medium
+milou (4:5.8.0-1~1.gbpe59e0e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @e59e0ea5db89a15ccdb9ec7f6a2fb697dd611713 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @3dfe924ab3f1601218c0e474ebef07cc8cff89a2 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 20:44:38 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:40:03 +0200
 
 milou (4:5.7.4-1) unstable; urgency=medium
 
