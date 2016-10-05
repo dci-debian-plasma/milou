@@ -7,4 +7,5 @@ usr/share/kservices5/plasma-applet-org.kde.milou.desktop
 usr/share/kservicetypes5/miloupreviewplugin.desktop
 usr/share/locale/*/*/milou.mo
 usr/share/locale/*/*/plasma_applet_org.kde.milou.mo
+usr/share/metainfo/org.kde.milou.appdata.xml
 usr/share/plasma/plasmoids/org.kde.milou/
