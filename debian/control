@@ -24,7 +24,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/milou.git
 Package: milou
 Architecture: any
 Depends: plasma-framework, ${misc:Depends}, ${shlibs:Depends}
-Breaks: plasma-widget-milou-kf5, plasma-workspace (<< 4:5.7)
+Breaks: plasma-widget-milou-kf5, plasma-workspace (<< 4:5.8)
 Replaces: plasma-widget-milou-kf5
 Description: Dedicated search plasmoid.
  Milou can also be used as an alternative to KRunner, and
