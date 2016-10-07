@@ -1,18 +1,14 @@
-milou (4:5.8.0-1~3.gbp3d47c7) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @3d47c7cbfb00b2b67904b03ce629cab00a801c3c **
+milou (4:5.8.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @3dfe924ab3f1601218c0e474ebef07cc8cff89a2 **
-
-  * UNRELEASED
+  * New upstream release (5.8.0)
+  * Bump group breaks (5.8)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
   * Update install files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 05 Oct 2016 19:38:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:05:16 +0200
 
 milou (4:5.7.4-1) unstable; urgency=medium
 
