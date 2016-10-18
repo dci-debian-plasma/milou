@@ -1,3 +1,11 @@
+milou (4:5.8.2-1~1.gbp492bf8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @492bf85ac609ca5957c8f8b06f8068bae4df4bda **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 20:44:27 +0200
+
 milou (4:5.8.1-1) unstable; urgency=medium
 
   * New upstream release (5.8.1)
