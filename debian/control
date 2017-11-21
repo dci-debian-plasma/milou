@@ -33,7 +33,7 @@ Description: Dedicated search plasmoid.
 
 Package: milou-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: milou (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
@@ -43,3 +43,4 @@ Description: Dedicated search plasmoid debug files.
  is that it concentrates more on searching.
  .
  This package contains the debugging symbols.
+
